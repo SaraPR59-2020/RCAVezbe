@@ -7,6 +7,10 @@ Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "WCFHealthMonitoring", "WCFH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobWorker", "JobWorker\JobWorker.csproj", "{8254AD9F-9769-45E2-ACDB-C702B871C16D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServer", "JobInvoker\WCFServer.csproj", "{42FAAFDD-B642-468C-90DA-12AC83EEADB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{B264CF48-2DA1-49A7-8B2E-08749811D14F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{8254AD9F-9769-45E2-ACDB-C702B871C16D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8254AD9F-9769-45E2-ACDB-C702B871C16D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8254AD9F-9769-45E2-ACDB-C702B871C16D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42FAAFDD-B642-468C-90DA-12AC83EEADB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42FAAFDD-B642-468C-90DA-12AC83EEADB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42FAAFDD-B642-468C-90DA-12AC83EEADB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42FAAFDD-B642-468C-90DA-12AC83EEADB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B264CF48-2DA1-49A7-8B2E-08749811D14F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B264CF48-2DA1-49A7-8B2E-08749811D14F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B264CF48-2DA1-49A7-8B2E-08749811D14F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B264CF48-2DA1-49A7-8B2E-08749811D14F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

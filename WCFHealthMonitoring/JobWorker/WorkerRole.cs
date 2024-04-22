@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Net;
+using System.ServiceModel;
+using Contracts;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure;
@@ -16,6 +18,7 @@ namespace JobWorker
     {
         private readonly CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
         private readonly ManualResetEvent runCompleteEvent = new ManualResetEvent(false);
+        private IHealthMonitoring proxy;
 
         public override void Run()
         {
@@ -46,6 +49,15 @@ namespace JobWorker
             return result;
         }
 
+        public void Connect()
+        {
+            var binding = new NetTcpBinding();
+            ChannelFactory<IHealthMonitoring> factory = 
+                new ChannelFactory<IHealthMonitoring>(binding, 
+                new EndpointAddress("net.tcp://localhost:6000/HealthMonitoring"));
+            proxy = factory.CreateChannel();
+        }
+
         public override void OnStop()
         {
             Trace.TraceInformation("JobWorker is stopping");
@@ -63,8 +75,18 @@ namespace JobWorker
             // TODO: Replace the following with your own logic.
             while (!cancellationToken.IsCancellationRequested)
             {
-                Trace.TraceInformation("Working");
-                await Task.Delay(1000);
+                try
+                {
+                    Connect();
+                    proxy.IAmAlive();
+                    Trace.TraceInformation("Service is alive.");
+                }
+                catch
+                {
+                    Trace.TraceWarning("Service not alive anymore!");
+                }
+                
+                await Task.Delay(5000);
             }
         }
     }
