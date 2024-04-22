@@ -1,0 +1,10 @@
+C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\JobInvoker\bin\Debug\JobInvoker.exe.config
+C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\JobInvoker\bin\Debug\JobInvoker.exe
+C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\JobInvoker\bin\Debug\JobInvoker.pdb
+C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\JobInvoker\bin\Debug\InterroleContracts.dll
+C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\JobInvoker\bin\Debug\InterroleContracts.pdb
+C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\JobInvoker\obj\Debug\JobInvoker.csprojAssemblyReference.cache
+C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\JobInvoker\obj\Debug\JobInvoker.csproj.CoreCompileInputs.cache
+C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\JobInvoker\obj\Debug\JobInvoker.csproj.CopyComplete
+C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\JobInvoker\obj\Debug\JobInvoker.exe
+C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\JobInvoker\obj\Debug\JobInvoker.pdb

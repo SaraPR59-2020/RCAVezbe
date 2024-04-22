@@ -1,0 +1,6 @@
+C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\InterroleContracts\bin\Debug\InterroleContracts.dll
+C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\InterroleContracts\bin\Debug\InterroleContracts.pdb
+C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\InterroleContracts\obj\Debug\InterroleContracts.csprojAssemblyReference.cache
+C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\InterroleContracts\obj\Debug\InterroleContracts.csproj.CoreCompileInputs.cache
+C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\InterroleContracts\obj\Debug\InterroleContracts.dll
+C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\InterroleContracts\obj\Debug\InterroleContracts.pdb
