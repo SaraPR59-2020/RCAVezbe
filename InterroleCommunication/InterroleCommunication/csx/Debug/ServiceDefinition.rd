@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="InterroleCommunication" generation="1" functional="0" release="0" Id="5dbc193e-bc1d-4fff-bf79-2b8c04e1ca5a" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="InterroleCommunication" generation="1" functional="0" release="0" Id="5a6fae5e-136c-4476-84b0-1d3b2430b6c3" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="InterroleCommunicationGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -27,6 +27,11 @@
             <inPortMoniker name="/InterroleCommunication/InterroleCommunicationGroup/JobWorker/InputRequest" />
           </toPorts>
         </lBChannel>
+        <sFSwitchChannel name="SW:JobWorker:InternalRequest">
+          <toPorts>
+            <inPortMoniker name="/InterroleCommunication/InterroleCommunicationGroup/JobWorker/InternalRequest" />
+          </toPorts>
+        </sFSwitchChannel>
       </channels>
       <maps>
         <map name="MapJobWorker:Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" kind="Identity">
@@ -45,10 +50,16 @@
           <role name="JobWorker" generation="1" functional="0" release="0" software="C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\InterroleCommunication\csx\Debug\roles\JobWorker" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="-1" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
             <componentports>
               <inPort name="InputRequest" protocol="tcp" portRanges="10100" />
+              <inPort name="InternalRequest" protocol="tcp" />
+              <outPort name="JobWorker:InternalRequest" protocol="tcp">
+                <outToChannel>
+                  <sFSwitchChannelMoniker name="/InterroleCommunication/InterroleCommunicationGroup/SW:JobWorker:InternalRequest" />
+                </outToChannel>
+              </outPort>
             </componentports>
             <settings>
               <aCS name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" defaultValue="" />
-              <aCS name="__ModelData" defaultValue="&lt;m role=&quot;JobWorker&quot; xmlns=&quot;urn:azure:m:v1&quot;&gt;&lt;r name=&quot;JobWorker&quot;&gt;&lt;e name=&quot;InputRequest&quot; /&gt;&lt;/r&gt;&lt;/m&gt;" />
+              <aCS name="__ModelData" defaultValue="&lt;m role=&quot;JobWorker&quot; xmlns=&quot;urn:azure:m:v1&quot;&gt;&lt;r name=&quot;JobWorker&quot;&gt;&lt;e name=&quot;InputRequest&quot; /&gt;&lt;e name=&quot;InternalRequest&quot; /&gt;&lt;/r&gt;&lt;/m&gt;" />
             </settings>
             <resourcereferences>
               <resourceReference name="DiagnosticStore" defaultAmount="[4096,4096,4096]" defaultSticky="true" kind="Directory" />
@@ -70,9 +81,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="2acaf862-18ed-4dd8-8c69-b61b1f74d53f" ref="Microsoft.RedDog.Contract\ServiceContract\InterroleCommunicationContract@ServiceDefinition">
+    <implementation Id="3ded44c9-cdb0-42d6-9e68-b06100313a3a" ref="Microsoft.RedDog.Contract\ServiceContract\InterroleCommunicationContract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="4a03fea4-ddec-4b83-8ba3-83775c283420" ref="Microsoft.RedDog.Contract\Interface\JobWorker:InputRequest@ServiceDefinition">
+        <interfaceReference Id="8bdf7c61-afe3-490b-a156-91b176b97e5c" ref="Microsoft.RedDog.Contract\Interface\JobWorker:InputRequest@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/InterroleCommunication/InterroleCommunicationGroup/JobWorker:InputRequest" />
           </inPort>

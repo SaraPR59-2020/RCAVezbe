@@ -1,17 +1,17 @@
-DiagnosticsPluginLauncher.exe Information: 0 : [22.4.2024. 21:37:37] Emulator config file set to C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\InterroleCommunication\csx\Debug\roles\JobWorker\approot\diagnostics.wadcfgx
-DiagnosticsPluginLauncher.exe Information: 0 : [22.4.2024. 21:37:37] DiagnosticsStoreRootPath set to: C:\Users\stame\AppData\Local\dftmp\Resources\46823508-81d6-4f0d-9a70-bc920881fb46
-DiagnosticsPluginLauncher.exe Information: 0 : [22.4.2024. 21:37:37] Loading config file: C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\InterroleCommunication\csx\Debug\roles\JobWorker\approot\diagnostics.wadcfgx
-DiagnosticsPluginLauncher.exe Information: 0 : [22.4.2024. 21:37:37] Config file to read: C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\InterroleCommunication\csx\Debug\roles\JobWorker\approot\diagnostics.wadcfgx
-DiagnosticsPluginLauncher.exe Information: 0 : [22.4.2024. 21:37:37] Checking VM Type
-DiagnosticsPluginLauncher.exe Information: 0 : [22.4.2024. 21:37:37] Emulator config file set to C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\InterroleCommunication\csx\Debug\roles\JobWorker\approot\diagnostics.wadcfgx
-DiagnosticsPluginLauncher.exe Information: 0 : [22.4.2024. 21:37:37] Extension set to Emulator Mode
-DiagnosticsPluginLauncher.exe Information: 0 : [22.4.2024. 21:37:37] Reading XML configuration file
-DiagnosticsPluginLauncher.exe Information: 0 : [22.4.2024. 21:37:37] Bypassing private config decryption
-DiagnosticsPluginLauncher.exe Information: 0 : [22.4.2024. 21:37:37] Stopping the running plugin, if any
-DiagnosticsPluginLauncher.exe Information: 0 : [22.4.2024. 21:37:37] No DiagnosticsPlugin is running.
-DiagnosticsPluginLauncher.exe Information: 0 : [22.4.2024. 21:37:37] Killing any DiagnosticsPlugin that might remain.
-DiagnosticsPluginLauncher.exe Information: 0 : [22.4.2024. 21:37:37] Killing any MonAgentHost that might remain.
-DiagnosticsPluginLauncher.exe Information: 0 : [22.4.2024. 21:37:37] Diagnostics plugin stopped successfully
-DiagnosticsPluginLauncher.exe Information: 0 : [22.4.2024. 21:37:37] Resetting DiagnosticPlugin
-DiagnosticsPluginLauncher.exe Information: 0 : [22.4.2024. 21:38:49] DiagnosticsPlugin launched successfully with new configuration
-DiagnosticsPluginLauncher.exe Information: 0 : [22.4.2024. 21:38:49] DiagnosticPlugin exited with code 0
+DiagnosticsPluginLauncher.exe Information: 0 : [27.4.2024. 19:12:45] Emulator config file set to C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\InterroleCommunication\csx\Debug\roles\JobWorker\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [27.4.2024. 19:12:45] DiagnosticsStoreRootPath set to: C:\Users\stame\AppData\Local\dftmp\Resources\83666aad-1456-413f-8d31-adb0bc4de63a
+DiagnosticsPluginLauncher.exe Information: 0 : [27.4.2024. 19:12:45] Loading config file: C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\InterroleCommunication\csx\Debug\roles\JobWorker\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [27.4.2024. 19:12:45] Config file to read: C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\InterroleCommunication\csx\Debug\roles\JobWorker\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [27.4.2024. 19:12:45] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [27.4.2024. 19:12:45] Emulator config file set to C:\Users\stame\source\repos\RCAvezbe\InterroleCommunication\InterroleCommunication\csx\Debug\roles\JobWorker\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [27.4.2024. 19:12:45] Extension set to Emulator Mode
+DiagnosticsPluginLauncher.exe Information: 0 : [27.4.2024. 19:12:45] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [27.4.2024. 19:12:45] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [27.4.2024. 19:12:45] Stopping the running plugin, if any
+DiagnosticsPluginLauncher.exe Information: 0 : [27.4.2024. 19:12:45] No DiagnosticsPlugin is running.
+DiagnosticsPluginLauncher.exe Information: 0 : [27.4.2024. 19:12:45] Killing any DiagnosticsPlugin that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [27.4.2024. 19:12:45] Killing any MonAgentHost that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [27.4.2024. 19:12:45] Diagnostics plugin stopped successfully
+DiagnosticsPluginLauncher.exe Information: 0 : [27.4.2024. 19:12:45] Resetting DiagnosticPlugin
+DiagnosticsPluginLauncher.exe Information: 0 : [27.4.2024. 19:13:56] DiagnosticsPlugin launched successfully with new configuration
+DiagnosticsPluginLauncher.exe Information: 0 : [27.4.2024. 19:13:56] DiagnosticPlugin exited with code 0

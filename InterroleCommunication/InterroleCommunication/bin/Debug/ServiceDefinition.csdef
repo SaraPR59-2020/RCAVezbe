@@ -15,6 +15,7 @@
     </ConfigurationSettings>
     <Endpoints>
       <InputEndpoint name="InputRequest" protocol="tcp" port="10100" />
+      <InternalEndpoint name="InternalRequest" protocol="tcp" />
     </Endpoints>
     <Contents>
       <Content destination=".\">
