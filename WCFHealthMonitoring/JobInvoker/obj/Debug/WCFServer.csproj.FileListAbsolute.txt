@@ -1,0 +1,10 @@
+C:\Users\stame\source\repos\RCAvezbe\WCFHealthMonitoring\JobInvoker\bin\Debug\JobInvoker.exe.config
+C:\Users\stame\source\repos\RCAvezbe\WCFHealthMonitoring\JobInvoker\bin\Debug\JobInvoker.exe
+C:\Users\stame\source\repos\RCAvezbe\WCFHealthMonitoring\JobInvoker\bin\Debug\JobInvoker.pdb
+C:\Users\stame\source\repos\RCAvezbe\WCFHealthMonitoring\JobInvoker\bin\Debug\Contracts.dll
+C:\Users\stame\source\repos\RCAvezbe\WCFHealthMonitoring\JobInvoker\bin\Debug\Contracts.pdb
+C:\Users\stame\source\repos\RCAvezbe\WCFHealthMonitoring\JobInvoker\obj\Debug\WCFServer.csprojAssemblyReference.cache
+C:\Users\stame\source\repos\RCAvezbe\WCFHealthMonitoring\JobInvoker\obj\Debug\WCFServer.csproj.CoreCompileInputs.cache
+C:\Users\stame\source\repos\RCAvezbe\WCFHealthMonitoring\JobInvoker\obj\Debug\WCFServer.csproj.CopyComplete
+C:\Users\stame\source\repos\RCAvezbe\WCFHealthMonitoring\JobInvoker\obj\Debug\JobInvoker.exe
+C:\Users\stame\source\repos\RCAvezbe\WCFHealthMonitoring\JobInvoker\obj\Debug\JobInvoker.pdb

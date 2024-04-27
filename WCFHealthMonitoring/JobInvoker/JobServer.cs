@@ -18,9 +18,10 @@ namespace WCFServer
         }
         public void Start()
         {
-            serviceHost = new ServiceHost(typeof(WCFHealthMonitoring));
+            serviceHost = new ServiceHost(typeof(HealthMonitoring));
             NetTcpBinding binding = new NetTcpBinding();
-            serviceHost.AddDefaultEndpoints(typeof(IHealthMonitoring), binding, new Uri("net.tcp://localhost:6000/HealthMonitoring"));
+            serviceHost.AddServiceEndpoint(typeof(IHealthMonitoring), binding, new
+                         Uri("net.tcp://localhost:6000/HealthMonitoring"));
             serviceHost.Open();
             Console.WriteLine("Server ready and waiting for requests.");
         }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace WCFServer
 {
-    class HealthMonitoring : IHealthMonitoring
+    public class HealthMonitoring : IHealthMonitoring
     {
         public void IAmAlive()
         {
